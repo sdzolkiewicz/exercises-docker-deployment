@@ -1,0 +1,29 @@
+.todo {
+    position: relative;
+    margin: 91px auto;
+    width: 676px;
+}
+
+.error {
+    color: red;
+    margin: 0;
+    font-size: 0.7em;
+    position: absolute;
+}
+
+.todo__button {
+    height: 40px;
+    width: 676px;
+    box-sizing: border-box;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: normal;
+}
+
+.todo__button:hover {
+    transform: translateY(-2px);
+    filter: brightness(0.8);
+    cursor: pointer;
+}

@@ -1,0 +1,55 @@
+.todo__task {
+    display: flex;
+    flex-direction: row;
+    height: 65px;
+    margin: 47px 0 1px 0;
+}
+
+.todo__input {
+    position: relative;
+    background-color: transparent;
+    font-size: 32px;
+    display: block;
+    line-height: 32px;
+    height: 65px;
+    box-sizing: border-box;
+    width: 554px;
+    padding: 6px 88px;
+    margin: auto;
+    margin-left: 0;
+    font-family: 'Hind Siliguri';
+    font-style: normal;
+    z-index: 1;
+    background: #ECF3FF;
+}
+
+.todo__button {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-family: normal;
+}
+
+.todo__button--active {
+    background: #5275A0;
+}
+
+.todo__button--active:hover {
+    transform: translateY(-2px);
+    filter: brightness(0.8);
+    cursor: pointer;
+}
+
+
+.todo__button--deactivated {
+    background: #828282;
+}
+
+.todo__button--deactivated:hover {
+    cursor:not-allowed;
+}
