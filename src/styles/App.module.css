@@ -19,7 +19,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: normal;
+    font-family: monospace;
+    border-radius: 0;
 }
 
 .todo__button:hover {

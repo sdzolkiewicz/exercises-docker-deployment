@@ -1,10 +1,10 @@
 import React, { useState, useContext, useCallback, useMemo, useRef, useEffect } from 'react';
 import { TodoContext } from '../context/TodoContext';
 import { useValidation } from '../hooks/useValidation';
-import deleteIcon from '../assets/delete.png';
-import writeIcon from '../assets/write.png';
-import cancelIcon from '../assets/close.png';
-import saveIcon from '../assets/check.png';
+import deleteIcon from '../assets/delete.svg';
+import writeIcon from '../assets/write.svg';
+import cancelIcon from '../assets/close.svg';
+import saveIcon from '../assets/check.svg';
 import styles from '../styles/TodoItem.module.css';
 
 

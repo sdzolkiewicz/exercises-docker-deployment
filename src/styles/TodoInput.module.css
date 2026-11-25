@@ -17,7 +17,6 @@
     padding: 6px 88px;
     margin: auto;
     margin-left: 0;
-    font-family: 'Hind Siliguri';
     font-style: normal;
     z-index: 1;
     background: #ECF3FF;
@@ -32,7 +31,6 @@
     align-items: center;
     justify-content: center;
     color: #FFFFFF;
-    font-family: normal;
 }
 
 .todo__button--active {
@@ -51,5 +49,5 @@
 }
 
 .todo__button--deactivated:hover {
-    cursor:not-allowed;
+    cursor: not-allowed;
 }
